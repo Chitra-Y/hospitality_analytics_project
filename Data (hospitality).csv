@@ -1,0 +1,501 @@
+Booking_ID,Booking_Date,Check_In,Check_Out,Hotel_Name,City,Room_Type,Customer_Type,Booking_Channel,Room_Rate,Nights,Revenue,Occupancy_Status,Rating,Cancellation
+B0001,2025-11-24,2025-11-28,2025-11-29,Royal Stay,Bangalore,Suite,Family,Online,9000,1,9000,Occupied,3,No
+B0002,2025-10-30,2025-11-13,2025-11-14,Urban Residency,Chennai,Standard,Family,Travel Agent,2500,1,2500,Occupied,3,No
+B0003,2025-11-29,2025-12-22,2025-12-27,Elite Inn,Bangalore,Standard,Family,Walk-in,5500,5,27500,Occupied,5,No
+B0004,2025-06-24,2025-07-03,2025-07-05,Grand Hotel,Bangalore,Deluxe,Business,Corporate,3500,2,7000,Cancelled,3,Yes
+B0005,2025-06-26,2025-07-16,2025-07-19,Grand Hotel,Hyderabad,Standard,Family,Corporate,2500,3,7500,Occupied,5,No
+B0006,2025-11-18,2025-12-08,2025-12-15,Grand Hotel,Bangalore,Suite,Business,Corporate,4500,7,31500,Occupied,5,No
+B0007,2025-02-10,2025-03-10,2025-03-12,Elite Inn,Mumbai,Deluxe,Leisure,Travel Agent,2500,2,5000,Occupied,4,No
+B0008,2025-12-10,2025-12-19,2025-12-25,Royal Stay,Chennai,Suite,Business,Travel Agent,9000,6,54000,Occupied,5,No
+B0009,2025-08-25,2025-09-07,2025-09-10,Elite Inn,Bangalore,Standard,Business,Corporate,9000,3,27000,Occupied,3,No
+B0010,2025-07-25,2025-08-03,2025-08-04,Royal Stay,Hyderabad,Deluxe,Family,Walk-in,3500,1,3500,Cancelled,3,Yes
+B0011,2025-03-15,2025-03-24,2025-03-26,Elite Inn,Chennai,Deluxe,Family,Walk-in,3500,2,7000,Occupied,5,No
+B0012,2025-07-05,2025-07-13,2025-07-15,Grand Hotel,Mumbai,Suite,Business,Walk-in,7000,2,14000,Occupied,3,No
+B0013,2025-11-02,2025-11-05,2025-11-09,Urban Residency,Delhi,Suite,Business,Online,5500,4,22000,Occupied,4,No
+B0014,2025-12-16,2026-01-14,2026-01-19,Grand Hotel,Delhi,Deluxe,Business,Walk-in,4500,5,22500,Occupied,4,No
+B0015,2025-01-02,2025-01-26,2025-02-01,Urban Residency,Bangalore,Suite,Leisure,Travel Agent,4500,6,27000,Cancelled,2,Yes
+B0016,2025-03-20,2025-04-01,2025-04-08,Grand Hotel,Chennai,Deluxe,Leisure,Online,3500,7,24500,Occupied,5,No
+B0017,2025-02-27,2025-03-29,2025-04-01,Urban Residency,Bangalore,Standard,Family,Walk-in,4500,3,13500,Occupied,3,No
+B0018,2025-02-05,2025-03-02,2025-03-07,Urban Residency,Mumbai,Deluxe,Family,Walk-in,3500,5,17500,Occupied,4,No
+B0019,2025-04-19,2025-05-19,2025-05-24,Elite Inn,Hyderabad,Suite,Family,Corporate,9000,5,45000,Occupied,5,No
+B0020,2025-08-13,2025-09-11,2025-09-16,Grand Hotel,Delhi,Standard,Family,Travel Agent,5500,5,27500,Occupied,3,No
+B0021,2025-10-29,2025-11-06,2025-11-07,Royal Stay,Bangalore,Standard,Leisure,Online,2500,1,2500,Occupied,3,No
+B0022,2025-09-21,2025-09-29,2025-10-02,Royal Stay,Chennai,Suite,Leisure,Travel Agent,9000,3,27000,Occupied,5,No
+B0023,2025-08-31,2025-09-26,2025-09-30,Skyline Suites,Delhi,Deluxe,Leisure,Walk-in,3500,4,14000,Occupied,5,No
+B0024,2025-01-28,2025-02-19,2025-02-25,Elite Inn,Bangalore,Standard,Business,Travel Agent,9000,6,54000,Occupied,4,No
+B0025,2025-10-02,2025-10-17,2025-10-19,Royal Stay,Bangalore,Deluxe,Family,Online,5500,2,11000,Occupied,4,No
+B0026,2025-01-26,2025-02-16,2025-02-21,Royal Stay,Hyderabad,Deluxe,Leisure,Travel Agent,2500,5,12500,Cancelled,2,Yes
+B0027,2025-07-25,2025-08-23,2025-08-24,Elite Inn,Hyderabad,Deluxe,Leisure,Walk-in,3500,1,3500,Occupied,4,No
+B0028,2025-03-21,2025-03-28,2025-03-31,Elite Inn,Bangalore,Standard,Family,Walk-in,3500,3,10500,Cancelled,1,Yes
+B0029,2025-09-15,2025-10-15,2025-10-22,Grand Hotel,Mumbai,Standard,Family,Online,7000,7,49000,Occupied,5,No
+B0030,2025-12-12,2026-01-09,2026-01-11,Royal Stay,Chennai,Suite,Business,Online,5500,2,11000,Occupied,5,No
+B0031,2025-08-03,2025-08-25,2025-08-30,Royal Stay,Delhi,Standard,Leisure,Walk-in,7000,5,35000,Occupied,4,No
+B0032,2025-03-09,2025-03-31,2025-04-06,Grand Hotel,Hyderabad,Suite,Family,Online,4500,6,27000,Occupied,3,No
+B0033,2025-02-07,2025-02-25,2025-02-27,Grand Hotel,Mumbai,Deluxe,Leisure,Travel Agent,7000,2,14000,Occupied,4,No
+B0034,2025-08-13,2025-09-09,2025-09-14,Urban Residency,Bangalore,Suite,Family,Corporate,9000,5,45000,Occupied,5,No
+B0035,2025-12-06,2025-12-10,2025-12-12,Urban Residency,Mumbai,Deluxe,Leisure,Travel Agent,4500,2,9000,Occupied,3,No
+B0036,2025-06-25,2025-07-02,2025-07-08,Elite Inn,Bangalore,Standard,Family,Walk-in,9000,6,54000,Cancelled,4,Yes
+B0037,2025-05-22,2025-05-24,2025-05-25,Elite Inn,Mumbai,Suite,Leisure,Walk-in,4500,1,4500,Occupied,5,No
+B0038,2025-10-15,2025-10-16,2025-10-17,Urban Residency,Bangalore,Deluxe,Family,Travel Agent,2500,1,2500,Cancelled,2,Yes
+B0039,2025-08-09,2025-08-14,2025-08-15,Elite Inn,Mumbai,Suite,Business,Online,4500,1,4500,Occupied,3,No
+B0040,2025-07-01,2025-07-26,2025-07-31,Royal Stay,Mumbai,Standard,Leisure,Online,5500,5,27500,Cancelled,2,Yes
+B0041,2025-04-02,2025-04-26,2025-04-29,Royal Stay,Delhi,Standard,Family,Online,5500,3,16500,Occupied,5,No
+B0042,2025-07-15,2025-08-12,2025-08-13,Elite Inn,Delhi,Standard,Business,Online,5500,1,5500,Occupied,4,No
+B0043,2025-12-04,2025-12-11,2025-12-15,Elite Inn,Delhi,Suite,Family,Walk-in,4500,4,18000,Occupied,3,No
+B0044,2025-12-14,2026-01-10,2026-01-15,Elite Inn,Mumbai,Suite,Leisure,Online,4500,5,22500,Cancelled,1,Yes
+B0045,2025-02-25,2025-03-17,2025-03-21,Skyline Suites,Chennai,Suite,Business,Walk-in,4500,4,18000,Occupied,4,No
+B0046,2025-10-23,2025-10-30,2025-11-02,Urban Residency,Chennai,Suite,Family,Travel Agent,2500,3,7500,Occupied,3,No
+B0047,2025-07-06,2025-07-20,2025-07-21,Grand Hotel,Delhi,Suite,Leisure,Walk-in,9000,1,9000,Cancelled,3,Yes
+B0048,2025-06-17,2025-06-30,2025-07-06,Skyline Suites,Hyderabad,Suite,Family,Travel Agent,4500,6,27000,Occupied,3,No
+B0049,2025-11-12,2025-12-01,2025-12-04,Elite Inn,Delhi,Standard,Leisure,Corporate,5500,3,16500,Occupied,3,No
+B0050,2025-08-27,2025-09-11,2025-09-15,Royal Stay,Bangalore,Deluxe,Family,Corporate,9000,4,36000,Occupied,4,No
+B0051,2025-02-17,2025-03-16,2025-03-23,Royal Stay,Mumbai,Standard,Business,Travel Agent,3500,7,24500,Occupied,3,No
+B0052,2025-09-01,2025-09-21,2025-09-28,Urban Residency,Mumbai,Suite,Family,Walk-in,2500,7,17500,Occupied,5,No
+B0053,2025-09-11,2025-09-24,2025-09-26,Grand Hotel,Hyderabad,Standard,Business,Walk-in,3500,2,7000,Occupied,3,No
+B0054,2025-01-26,2025-02-13,2025-02-15,Urban Residency,Chennai,Suite,Leisure,Walk-in,2500,2,5000,Occupied,4,No
+B0055,2025-11-10,2025-12-07,2025-12-13,Skyline Suites,Mumbai,Suite,Leisure,Walk-in,7000,6,42000,Occupied,5,No
+B0056,2025-05-13,2025-06-07,2025-06-09,Skyline Suites,Mumbai,Deluxe,Leisure,Online,9000,2,18000,Occupied,5,No
+B0057,2025-05-27,2025-06-04,2025-06-07,Grand Hotel,Mumbai,Standard,Business,Walk-in,4500,3,13500,Occupied,5,No
+B0058,2025-12-22,2025-12-27,2026-01-02,Elite Inn,Chennai,Deluxe,Leisure,Online,3500,6,21000,Occupied,4,No
+B0059,2025-04-16,2025-05-13,2025-05-17,Urban Residency,Hyderabad,Deluxe,Business,Corporate,5500,4,22000,Cancelled,1,Yes
+B0060,2025-06-02,2025-06-27,2025-07-01,Urban Residency,Chennai,Standard,Leisure,Travel Agent,5500,4,22000,Occupied,5,No
+B0061,2025-05-20,2025-06-03,2025-06-07,Skyline Suites,Mumbai,Deluxe,Business,Online,2500,4,10000,Occupied,5,No
+B0062,2025-07-21,2025-08-09,2025-08-14,Skyline Suites,Mumbai,Deluxe,Business,Online,9000,5,45000,Occupied,5,No
+B0063,2025-05-14,2025-05-27,2025-05-30,Skyline Suites,Delhi,Deluxe,Leisure,Online,3500,3,10500,Occupied,4,No
+B0064,2025-08-29,2025-08-30,2025-09-05,Royal Stay,Bangalore,Suite,Business,Online,7000,6,42000,Occupied,4,No
+B0065,2025-05-07,2025-05-14,2025-05-21,Royal Stay,Hyderabad,Suite,Business,Travel Agent,2500,7,17500,Occupied,3,No
+B0066,2025-08-27,2025-09-19,2025-09-22,Grand Hotel,Mumbai,Deluxe,Business,Online,4500,3,13500,Occupied,5,No
+B0067,2025-06-09,2025-06-28,2025-07-04,Royal Stay,Bangalore,Suite,Family,Travel Agent,5500,6,33000,Occupied,5,No
+B0068,2025-02-22,2025-03-17,2025-03-24,Urban Residency,Bangalore,Deluxe,Family,Walk-in,4500,7,31500,Cancelled,1,Yes
+B0069,2025-12-05,2025-12-17,2025-12-18,Skyline Suites,Hyderabad,Standard,Leisure,Corporate,7000,1,7000,Occupied,3,No
+B0070,2025-11-22,2025-12-21,2025-12-28,Royal Stay,Chennai,Suite,Leisure,Walk-in,5500,7,38500,Occupied,4,No
+B0071,2025-08-27,2025-09-10,2025-09-17,Royal Stay,Bangalore,Deluxe,Leisure,Travel Agent,9000,7,63000,Occupied,4,No
+B0072,2025-08-26,2025-09-14,2025-09-19,Skyline Suites,Delhi,Standard,Leisure,Travel Agent,9000,5,45000,Occupied,3,No
+B0073,2025-07-01,2025-07-27,2025-07-30,Elite Inn,Chennai,Standard,Family,Travel Agent,4500,3,13500,Occupied,5,No
+B0074,2025-02-13,2025-02-21,2025-02-27,Skyline Suites,Hyderabad,Deluxe,Business,Online,5500,6,33000,Occupied,3,No
+B0075,2025-05-31,2025-06-08,2025-06-12,Urban Residency,Delhi,Deluxe,Family,Corporate,9000,4,36000,Occupied,5,No
+B0076,2025-08-06,2025-08-30,2025-09-04,Elite Inn,Delhi,Deluxe,Business,Online,4500,5,22500,Occupied,4,No
+B0077,2025-04-09,2025-04-20,2025-04-21,Royal Stay,Mumbai,Standard,Family,Walk-in,9000,1,9000,Occupied,5,No
+B0078,2025-05-22,2025-06-15,2025-06-20,Royal Stay,Delhi,Standard,Leisure,Travel Agent,7000,5,35000,Occupied,3,No
+B0079,2025-06-04,2025-06-05,2025-06-11,Grand Hotel,Chennai,Deluxe,Family,Travel Agent,7000,6,42000,Occupied,3,No
+B0080,2025-11-23,2025-12-21,2025-12-28,Urban Residency,Delhi,Deluxe,Leisure,Walk-in,5500,7,38500,Occupied,3,No
+B0081,2025-06-24,2025-06-30,2025-07-01,Grand Hotel,Bangalore,Deluxe,Leisure,Online,4500,1,4500,Cancelled,4,Yes
+B0082,2025-10-23,2025-11-13,2025-11-19,Elite Inn,Bangalore,Standard,Business,Walk-in,2500,6,15000,Occupied,5,No
+B0083,2025-11-07,2025-11-27,2025-12-04,Skyline Suites,Hyderabad,Deluxe,Leisure,Walk-in,7000,7,49000,Occupied,5,No
+B0084,2025-06-06,2025-06-25,2025-06-30,Grand Hotel,Mumbai,Suite,Business,Corporate,2500,5,12500,Occupied,5,No
+B0085,2025-12-05,2025-12-08,2025-12-10,Royal Stay,Bangalore,Deluxe,Leisure,Walk-in,3500,2,7000,Occupied,3,No
+B0086,2025-05-30,2025-06-01,2025-06-03,Skyline Suites,Bangalore,Suite,Business,Corporate,4500,2,9000,Occupied,5,No
+B0087,2025-11-17,2025-12-06,2025-12-12,Royal Stay,Mumbai,Deluxe,Business,Online,3500,6,21000,Occupied,5,No
+B0088,2025-01-31,2025-02-06,2025-02-13,Elite Inn,Hyderabad,Standard,Leisure,Corporate,4500,7,31500,Occupied,5,No
+B0089,2025-12-25,2026-01-07,2026-01-10,Grand Hotel,Chennai,Standard,Leisure,Corporate,7000,3,21000,Occupied,4,No
+B0090,2025-11-06,2025-11-15,2025-11-16,Urban Residency,Chennai,Standard,Family,Corporate,2500,1,2500,Occupied,5,No
+B0091,2025-10-23,2025-10-25,2025-11-01,Skyline Suites,Delhi,Standard,Family,Walk-in,3500,7,24500,Occupied,5,No
+B0092,2025-11-22,2025-12-19,2025-12-23,Elite Inn,Delhi,Suite,Business,Travel Agent,2500,4,10000,Occupied,4,No
+B0093,2025-06-18,2025-07-02,2025-07-08,Urban Residency,Bangalore,Deluxe,Business,Corporate,5500,6,33000,Occupied,4,No
+B0094,2025-05-10,2025-05-21,2025-05-22,Urban Residency,Hyderabad,Deluxe,Business,Travel Agent,5500,1,5500,Cancelled,1,Yes
+B0095,2025-09-23,2025-10-05,2025-10-10,Royal Stay,Delhi,Suite,Business,Corporate,5500,5,27500,Occupied,3,No
+B0096,2025-08-13,2025-09-11,2025-09-17,Urban Residency,Mumbai,Suite,Business,Corporate,5500,6,33000,Occupied,5,No
+B0097,2025-10-10,2025-10-11,2025-10-16,Skyline Suites,Bangalore,Suite,Business,Walk-in,5500,5,27500,Occupied,3,No
+B0098,2025-05-30,2025-06-16,2025-06-22,Skyline Suites,Mumbai,Deluxe,Family,Travel Agent,4500,6,27000,Occupied,4,No
+B0099,2025-07-16,2025-07-23,2025-07-28,Grand Hotel,Delhi,Deluxe,Leisure,Corporate,7000,5,35000,Occupied,3,No
+B0100,2025-01-02,2025-01-12,2025-01-18,Skyline Suites,Mumbai,Deluxe,Family,Walk-in,4500,6,27000,Occupied,5,No
+B0101,2025-06-26,2025-07-07,2025-07-12,Royal Stay,Mumbai,Suite,Leisure,Travel Agent,7000,5,35000,Occupied,4,No
+B0102,2025-07-30,2025-08-01,2025-08-04,Skyline Suites,Mumbai,Deluxe,Business,Travel Agent,9000,3,27000,Occupied,4,No
+B0103,2025-09-15,2025-10-04,2025-10-07,Grand Hotel,Chennai,Deluxe,Business,Travel Agent,2500,3,7500,Cancelled,4,Yes
+B0104,2025-07-29,2025-08-26,2025-09-01,Elite Inn,Chennai,Suite,Leisure,Online,3500,6,21000,Occupied,4,No
+B0105,2025-06-18,2025-07-16,2025-07-22,Skyline Suites,Chennai,Standard,Family,Online,7000,6,42000,Occupied,4,No
+B0106,2025-05-01,2025-05-22,2025-05-28,Skyline Suites,Bangalore,Suite,Family,Online,4500,6,27000,Cancelled,1,Yes
+B0107,2025-08-16,2025-08-22,2025-08-28,Elite Inn,Bangalore,Deluxe,Leisure,Corporate,4500,6,27000,Cancelled,1,Yes
+B0108,2025-08-09,2025-08-14,2025-08-16,Royal Stay,Mumbai,Standard,Business,Walk-in,7000,2,14000,Occupied,5,No
+B0109,2025-11-14,2025-12-06,2025-12-08,Royal Stay,Hyderabad,Suite,Leisure,Walk-in,5500,2,11000,Cancelled,2,Yes
+B0110,2025-05-11,2025-06-02,2025-06-03,Grand Hotel,Hyderabad,Deluxe,Family,Corporate,5500,1,5500,Cancelled,2,Yes
+B0111,2025-11-24,2025-12-08,2025-12-14,Royal Stay,Hyderabad,Deluxe,Business,Travel Agent,4500,6,27000,Occupied,4,No
+B0112,2025-07-15,2025-08-03,2025-08-06,Elite Inn,Bangalore,Suite,Leisure,Corporate,7000,3,21000,Occupied,5,No
+B0113,2025-01-05,2025-01-24,2025-01-31,Urban Residency,Hyderabad,Deluxe,Business,Corporate,9000,7,63000,Occupied,3,No
+B0114,2025-04-23,2025-05-14,2025-05-16,Royal Stay,Bangalore,Suite,Family,Online,7000,2,14000,Occupied,5,No
+B0115,2025-06-08,2025-07-04,2025-07-08,Royal Stay,Bangalore,Deluxe,Leisure,Walk-in,2500,4,10000,Occupied,5,No
+B0116,2025-03-31,2025-04-07,2025-04-09,Urban Residency,Chennai,Deluxe,Business,Corporate,7000,2,14000,Cancelled,3,Yes
+B0117,2025-09-04,2025-09-30,2025-10-03,Skyline Suites,Bangalore,Standard,Business,Walk-in,9000,3,27000,Cancelled,1,Yes
+B0118,2025-10-13,2025-10-25,2025-10-26,Grand Hotel,Hyderabad,Deluxe,Family,Corporate,5500,1,5500,Occupied,5,No
+B0119,2025-10-27,2025-11-09,2025-11-16,Royal Stay,Hyderabad,Standard,Family,Corporate,9000,7,63000,Cancelled,1,Yes
+B0120,2025-11-09,2025-11-17,2025-11-23,Elite Inn,Hyderabad,Standard,Business,Online,2500,6,15000,Occupied,4,No
+B0121,2025-01-20,2025-01-30,2025-02-03,Royal Stay,Hyderabad,Deluxe,Leisure,Walk-in,2500,4,10000,Occupied,5,No
+B0122,2025-10-28,2025-11-21,2025-11-27,Skyline Suites,Chennai,Deluxe,Leisure,Online,3500,6,21000,Cancelled,1,Yes
+B0123,2025-12-20,2026-01-01,2026-01-03,Elite Inn,Bangalore,Suite,Leisure,Corporate,5500,2,11000,Occupied,3,No
+B0124,2025-02-01,2025-02-14,2025-02-17,Grand Hotel,Mumbai,Suite,Family,Online,3500,3,10500,Cancelled,4,Yes
+B0125,2025-01-26,2025-02-21,2025-02-24,Grand Hotel,Chennai,Standard,Family,Travel Agent,3500,3,10500,Cancelled,2,Yes
+B0126,2025-04-30,2025-05-11,2025-05-18,Grand Hotel,Delhi,Standard,Business,Corporate,3500,7,24500,Occupied,5,No
+B0127,2025-03-31,2025-04-04,2025-04-10,Royal Stay,Chennai,Deluxe,Business,Travel Agent,2500,6,15000,Occupied,4,No
+B0128,2025-05-16,2025-05-18,2025-05-20,Grand Hotel,Hyderabad,Deluxe,Leisure,Online,9000,2,18000,Occupied,3,No
+B0129,2025-08-20,2025-09-06,2025-09-08,Urban Residency,Delhi,Deluxe,Family,Online,7000,2,14000,Occupied,5,No
+B0130,2025-02-01,2025-02-17,2025-02-24,Skyline Suites,Hyderabad,Standard,Business,Corporate,5500,7,38500,Occupied,3,No
+B0131,2025-11-08,2025-11-13,2025-11-14,Urban Residency,Chennai,Suite,Leisure,Walk-in,3500,1,3500,Occupied,5,No
+B0132,2025-11-02,2025-11-19,2025-11-22,Grand Hotel,Bangalore,Suite,Family,Travel Agent,5500,3,16500,Occupied,4,No
+B0133,2025-08-09,2025-08-24,2025-08-26,Skyline Suites,Hyderabad,Suite,Business,Corporate,5500,2,11000,Occupied,4,No
+B0134,2025-08-07,2025-08-18,2025-08-24,Skyline Suites,Bangalore,Standard,Business,Online,4500,6,27000,Occupied,3,No
+B0135,2025-08-10,2025-08-14,2025-08-20,Urban Residency,Bangalore,Suite,Family,Corporate,9000,6,54000,Occupied,3,No
+B0136,2025-12-10,2025-12-14,2025-12-18,Grand Hotel,Delhi,Suite,Leisure,Corporate,4500,4,18000,Cancelled,4,Yes
+B0137,2025-02-23,2025-03-14,2025-03-19,Royal Stay,Bangalore,Deluxe,Family,Corporate,3500,5,17500,Occupied,4,No
+B0138,2025-02-28,2025-03-25,2025-03-28,Urban Residency,Chennai,Suite,Family,Online,7000,3,21000,Occupied,4,No
+B0139,2025-11-08,2025-12-08,2025-12-14,Elite Inn,Delhi,Deluxe,Leisure,Online,9000,6,54000,Occupied,3,No
+B0140,2025-04-03,2025-05-01,2025-05-03,Royal Stay,Bangalore,Standard,Family,Travel Agent,7000,2,14000,Occupied,3,No
+B0141,2025-07-12,2025-07-26,2025-07-30,Elite Inn,Chennai,Suite,Business,Online,4500,4,18000,Occupied,4,No
+B0142,2025-03-21,2025-03-27,2025-04-03,Elite Inn,Hyderabad,Suite,Leisure,Walk-in,7000,7,49000,Occupied,3,No
+B0143,2025-11-07,2025-11-22,2025-11-26,Grand Hotel,Delhi,Deluxe,Business,Corporate,4500,4,18000,Occupied,5,No
+B0144,2025-12-14,2026-01-05,2026-01-10,Grand Hotel,Mumbai,Deluxe,Family,Online,5500,5,27500,Occupied,4,No
+B0145,2025-01-04,2025-01-11,2025-01-14,Elite Inn,Delhi,Standard,Business,Walk-in,3500,3,10500,Occupied,4,No
+B0146,2025-08-09,2025-08-15,2025-08-17,Urban Residency,Chennai,Suite,Leisure,Online,5500,2,11000,Occupied,3,No
+B0147,2025-07-23,2025-08-20,2025-08-26,Grand Hotel,Delhi,Suite,Leisure,Walk-in,2500,6,15000,Occupied,4,No
+B0148,2025-12-30,2026-01-20,2026-01-24,Elite Inn,Mumbai,Suite,Leisure,Corporate,4500,4,18000,Occupied,3,No
+B0149,2025-02-15,2025-03-01,2025-03-08,Skyline Suites,Chennai,Standard,Leisure,Corporate,2500,7,17500,Occupied,5,No
+B0150,2025-06-23,2025-07-01,2025-07-04,Grand Hotel,Chennai,Suite,Business,Corporate,3500,3,10500,Occupied,5,No
+B0151,2025-06-29,2025-07-23,2025-07-30,Grand Hotel,Mumbai,Deluxe,Business,Travel Agent,9000,7,63000,Occupied,3,No
+B0152,2025-11-05,2025-11-10,2025-11-17,Skyline Suites,Hyderabad,Suite,Family,Walk-in,9000,7,63000,Occupied,5,No
+B0153,2025-12-15,2026-01-14,2026-01-19,Elite Inn,Delhi,Standard,Leisure,Online,9000,5,45000,Occupied,5,No
+B0154,2025-08-29,2025-09-13,2025-09-19,Grand Hotel,Delhi,Suite,Business,Corporate,4500,6,27000,Occupied,5,No
+B0155,2025-08-25,2025-09-09,2025-09-10,Grand Hotel,Bangalore,Suite,Family,Walk-in,2500,1,2500,Occupied,4,No
+B0156,2025-08-25,2025-09-13,2025-09-18,Urban Residency,Mumbai,Deluxe,Family,Walk-in,9000,5,45000,Cancelled,4,Yes
+B0157,2025-09-14,2025-09-19,2025-09-20,Grand Hotel,Chennai,Suite,Business,Online,5500,1,5500,Occupied,4,No
+B0158,2025-05-07,2025-05-30,2025-06-03,Royal Stay,Delhi,Deluxe,Leisure,Walk-in,5500,4,22000,Occupied,5,No
+B0159,2025-07-29,2025-08-23,2025-08-26,Elite Inn,Bangalore,Deluxe,Business,Walk-in,9000,3,27000,Occupied,5,No
+B0160,2025-05-26,2025-06-04,2025-06-10,Elite Inn,Bangalore,Suite,Family,Travel Agent,9000,6,54000,Cancelled,2,Yes
+B0161,2025-06-29,2025-07-09,2025-07-15,Urban Residency,Bangalore,Deluxe,Family,Walk-in,9000,6,54000,Occupied,3,No
+B0162,2025-11-26,2025-12-22,2025-12-25,Urban Residency,Bangalore,Suite,Family,Walk-in,3500,3,10500,Occupied,5,No
+B0163,2025-09-18,2025-09-30,2025-10-01,Elite Inn,Hyderabad,Standard,Business,Travel Agent,4500,1,4500,Occupied,3,No
+B0164,2025-03-21,2025-03-24,2025-03-27,Urban Residency,Bangalore,Suite,Leisure,Travel Agent,2500,3,7500,Occupied,5,No
+B0165,2025-11-02,2025-11-15,2025-11-17,Urban Residency,Mumbai,Suite,Leisure,Online,3500,2,7000,Occupied,5,No
+B0166,2025-07-30,2025-08-11,2025-08-17,Urban Residency,Delhi,Suite,Leisure,Travel Agent,9000,6,54000,Occupied,4,No
+B0167,2025-10-01,2025-10-09,2025-10-12,Elite Inn,Chennai,Deluxe,Leisure,Corporate,5500,3,16500,Cancelled,2,Yes
+B0168,2025-07-15,2025-08-01,2025-08-06,Urban Residency,Mumbai,Deluxe,Business,Walk-in,5500,5,27500,Cancelled,2,Yes
+B0169,2025-07-10,2025-07-28,2025-07-29,Elite Inn,Bangalore,Standard,Leisure,Walk-in,9000,1,9000,Occupied,3,No
+B0170,2025-09-20,2025-09-25,2025-10-02,Skyline Suites,Delhi,Standard,Leisure,Online,5500,7,38500,Occupied,3,No
+B0171,2025-07-22,2025-08-08,2025-08-11,Elite Inn,Mumbai,Standard,Leisure,Online,3500,3,10500,Occupied,3,No
+B0172,2025-11-29,2025-12-10,2025-12-17,Skyline Suites,Mumbai,Suite,Leisure,Walk-in,3500,7,24500,Occupied,4,No
+B0173,2025-11-12,2025-11-13,2025-11-14,Urban Residency,Chennai,Suite,Leisure,Online,2500,1,2500,Occupied,3,No
+B0174,2025-05-28,2025-06-05,2025-06-08,Urban Residency,Hyderabad,Standard,Business,Walk-in,2500,3,7500,Occupied,4,No
+B0175,2025-11-02,2025-11-20,2025-11-21,Royal Stay,Delhi,Deluxe,Business,Corporate,9000,1,9000,Occupied,3,No
+B0176,2025-05-04,2025-05-23,2025-05-27,Urban Residency,Delhi,Standard,Family,Online,3500,4,14000,Occupied,3,No
+B0177,2025-07-19,2025-08-16,2025-08-20,Elite Inn,Bangalore,Deluxe,Business,Corporate,2500,4,10000,Occupied,4,No
+B0178,2025-05-04,2025-05-28,2025-06-03,Elite Inn,Mumbai,Standard,Leisure,Corporate,9000,6,54000,Occupied,5,No
+B0179,2025-11-26,2025-12-02,2025-12-09,Skyline Suites,Mumbai,Standard,Business,Walk-in,9000,7,63000,Occupied,5,No
+B0180,2025-01-19,2025-01-29,2025-01-31,Elite Inn,Delhi,Suite,Leisure,Walk-in,2500,2,5000,Occupied,3,No
+B0181,2025-05-10,2025-05-12,2025-05-19,Grand Hotel,Delhi,Deluxe,Business,Corporate,9000,7,63000,Occupied,4,No
+B0182,2025-08-12,2025-09-10,2025-09-14,Elite Inn,Mumbai,Deluxe,Family,Walk-in,9000,4,36000,Occupied,4,No
+B0183,2025-07-08,2025-08-07,2025-08-14,Skyline Suites,Bangalore,Deluxe,Family,Travel Agent,7000,7,49000,Occupied,3,No
+B0184,2025-10-07,2025-10-17,2025-10-20,Elite Inn,Delhi,Deluxe,Family,Walk-in,2500,3,7500,Occupied,5,No
+B0185,2025-03-27,2025-04-19,2025-04-23,Elite Inn,Chennai,Deluxe,Leisure,Online,4500,4,18000,Occupied,5,No
+B0186,2025-02-08,2025-03-02,2025-03-08,Royal Stay,Bangalore,Standard,Family,Walk-in,5500,6,33000,Occupied,5,No
+B0187,2025-01-18,2025-01-23,2025-01-24,Elite Inn,Hyderabad,Suite,Business,Travel Agent,3500,1,3500,Occupied,4,No
+B0188,2025-12-14,2025-12-29,2026-01-01,Urban Residency,Mumbai,Suite,Leisure,Walk-in,4500,3,13500,Occupied,3,No
+B0189,2025-06-10,2025-07-01,2025-07-04,Royal Stay,Hyderabad,Suite,Leisure,Online,3500,3,10500,Cancelled,1,Yes
+B0190,2025-05-15,2025-06-09,2025-06-12,Elite Inn,Hyderabad,Standard,Business,Travel Agent,9000,3,27000,Occupied,5,No
+B0191,2025-02-07,2025-02-22,2025-02-24,Elite Inn,Delhi,Suite,Business,Corporate,9000,2,18000,Occupied,3,No
+B0192,2025-06-03,2025-07-01,2025-07-03,Royal Stay,Delhi,Suite,Business,Online,9000,2,18000,Occupied,5,No
+B0193,2025-04-13,2025-05-09,2025-05-11,Elite Inn,Chennai,Suite,Leisure,Walk-in,3500,2,7000,Occupied,3,No
+B0194,2025-10-10,2025-10-15,2025-10-20,Skyline Suites,Chennai,Deluxe,Leisure,Online,2500,5,12500,Occupied,4,No
+B0195,2025-03-06,2025-03-17,2025-03-23,Urban Residency,Delhi,Standard,Family,Travel Agent,2500,6,15000,Occupied,5,No
+B0196,2025-03-08,2025-03-22,2025-03-27,Royal Stay,Delhi,Standard,Business,Corporate,2500,5,12500,Occupied,5,No
+B0197,2025-12-30,2026-01-07,2026-01-10,Elite Inn,Mumbai,Suite,Family,Corporate,7000,3,21000,Cancelled,1,Yes
+B0198,2025-03-06,2025-03-27,2025-03-30,Royal Stay,Chennai,Suite,Business,Travel Agent,7000,3,21000,Occupied,5,No
+B0199,2025-12-04,2025-12-24,2025-12-30,Grand Hotel,Bangalore,Standard,Business,Corporate,7000,6,42000,Occupied,5,No
+B0200,2025-11-30,2025-12-07,2025-12-14,Grand Hotel,Hyderabad,Suite,Family,Corporate,7000,7,49000,Occupied,5,No
+B0201,2025-11-25,2025-12-05,2025-12-09,Skyline Suites,Delhi,Deluxe,Business,Online,3500,4,14000,Occupied,5,No
+B0202,2025-03-22,2025-04-06,2025-04-10,Urban Residency,Mumbai,Deluxe,Family,Corporate,5500,4,22000,Occupied,4,No
+B0203,2025-06-26,2025-07-09,2025-07-11,Elite Inn,Mumbai,Deluxe,Business,Corporate,4500,2,9000,Occupied,3,No
+B0204,2025-08-19,2025-08-27,2025-08-29,Urban Residency,Hyderabad,Standard,Business,Corporate,2500,2,5000,Occupied,4,No
+B0205,2025-10-23,2025-11-16,2025-11-19,Urban Residency,Hyderabad,Deluxe,Leisure,Walk-in,3500,3,10500,Occupied,4,No
+B0206,2025-01-12,2025-01-15,2025-01-19,Royal Stay,Chennai,Deluxe,Business,Online,7000,4,28000,Occupied,3,No
+B0207,2025-05-25,2025-06-10,2025-06-15,Urban Residency,Bangalore,Standard,Leisure,Travel Agent,9000,5,45000,Occupied,4,No
+B0208,2025-05-16,2025-06-09,2025-06-12,Grand Hotel,Chennai,Suite,Business,Corporate,5500,3,16500,Occupied,4,No
+B0209,2025-10-11,2025-10-21,2025-10-22,Elite Inn,Chennai,Suite,Family,Online,5500,1,5500,Occupied,5,No
+B0210,2025-03-07,2025-03-11,2025-03-15,Urban Residency,Delhi,Standard,Business,Walk-in,4500,4,18000,Occupied,4,No
+B0211,2025-09-14,2025-09-16,2025-09-17,Skyline Suites,Chennai,Deluxe,Business,Travel Agent,2500,1,2500,Occupied,4,No
+B0212,2025-06-17,2025-07-17,2025-07-22,Elite Inn,Chennai,Deluxe,Family,Walk-in,4500,5,22500,Occupied,5,No
+B0213,2025-12-29,2026-01-17,2026-01-20,Elite Inn,Bangalore,Deluxe,Family,Corporate,5500,3,16500,Occupied,4,No
+B0214,2025-12-19,2026-01-09,2026-01-10,Urban Residency,Chennai,Standard,Family,Online,7000,1,7000,Occupied,5,No
+B0215,2025-10-26,2025-11-11,2025-11-13,Skyline Suites,Mumbai,Suite,Business,Online,7000,2,14000,Occupied,5,No
+B0216,2025-10-21,2025-11-13,2025-11-14,Skyline Suites,Mumbai,Deluxe,Family,Travel Agent,3500,1,3500,Occupied,4,No
+B0217,2025-07-30,2025-08-16,2025-08-23,Royal Stay,Chennai,Standard,Family,Corporate,7000,7,49000,Cancelled,1,Yes
+B0218,2025-12-06,2025-12-22,2025-12-27,Skyline Suites,Chennai,Deluxe,Family,Corporate,5500,5,27500,Occupied,3,No
+B0219,2025-12-13,2026-01-07,2026-01-14,Elite Inn,Chennai,Deluxe,Business,Travel Agent,9000,7,63000,Occupied,5,No
+B0220,2025-05-23,2025-06-10,2025-06-13,Elite Inn,Mumbai,Suite,Family,Walk-in,3500,3,10500,Cancelled,3,Yes
+B0221,2025-06-12,2025-06-28,2025-07-01,Elite Inn,Bangalore,Suite,Family,Walk-in,7000,3,21000,Cancelled,3,Yes
+B0222,2025-07-22,2025-08-18,2025-08-21,Grand Hotel,Delhi,Deluxe,Family,Corporate,3500,3,10500,Occupied,4,No
+B0223,2025-09-03,2025-09-10,2025-09-12,Elite Inn,Mumbai,Standard,Family,Travel Agent,7000,2,14000,Occupied,5,No
+B0224,2025-05-05,2025-05-07,2025-05-13,Grand Hotel,Bangalore,Deluxe,Leisure,Walk-in,7000,6,42000,Occupied,3,No
+B0225,2025-02-21,2025-03-15,2025-03-22,Royal Stay,Hyderabad,Suite,Leisure,Walk-in,3500,7,24500,Occupied,5,No
+B0226,2025-11-30,2025-12-07,2025-12-14,Grand Hotel,Bangalore,Suite,Family,Travel Agent,4500,7,31500,Occupied,5,No
+B0227,2025-10-01,2025-10-25,2025-10-31,Skyline Suites,Mumbai,Standard,Leisure,Walk-in,2500,6,15000,Cancelled,2,Yes
+B0228,2025-04-06,2025-05-06,2025-05-12,Elite Inn,Chennai,Suite,Business,Corporate,4500,6,27000,Cancelled,1,Yes
+B0229,2025-05-26,2025-06-10,2025-06-16,Urban Residency,Hyderabad,Deluxe,Business,Online,7000,6,42000,Occupied,3,No
+B0230,2025-06-19,2025-06-25,2025-07-01,Royal Stay,Bangalore,Suite,Leisure,Corporate,5500,6,33000,Occupied,5,No
+B0231,2025-10-18,2025-11-09,2025-11-16,Skyline Suites,Hyderabad,Suite,Leisure,Online,3500,7,24500,Occupied,5,No
+B0232,2025-07-25,2025-08-16,2025-08-17,Elite Inn,Mumbai,Standard,Leisure,Walk-in,3500,1,3500,Cancelled,4,Yes
+B0233,2025-05-01,2025-05-16,2025-05-23,Urban Residency,Chennai,Standard,Leisure,Corporate,4500,7,31500,Cancelled,3,Yes
+B0234,2025-12-21,2025-12-29,2025-12-30,Royal Stay,Hyderabad,Suite,Family,Corporate,9000,1,9000,Occupied,4,No
+B0235,2025-12-20,2025-12-24,2025-12-30,Royal Stay,Mumbai,Deluxe,Business,Walk-in,4500,6,27000,Occupied,3,No
+B0236,2025-11-07,2025-11-19,2025-11-23,Urban Residency,Mumbai,Standard,Family,Online,9000,4,36000,Occupied,4,No
+B0237,2025-09-27,2025-10-12,2025-10-17,Grand Hotel,Bangalore,Suite,Family,Travel Agent,9000,5,45000,Occupied,5,No
+B0238,2025-10-21,2025-11-08,2025-11-10,Skyline Suites,Bangalore,Suite,Business,Walk-in,3500,2,7000,Occupied,5,No
+B0239,2025-02-16,2025-03-17,2025-03-22,Royal Stay,Chennai,Deluxe,Leisure,Online,5500,5,27500,Occupied,4,No
+B0240,2025-10-14,2025-10-29,2025-11-04,Elite Inn,Bangalore,Suite,Business,Online,4500,6,27000,Occupied,4,No
+B0241,2025-01-24,2025-02-07,2025-02-10,Grand Hotel,Hyderabad,Standard,Leisure,Walk-in,9000,3,27000,Occupied,3,No
+B0242,2025-04-03,2025-04-28,2025-04-30,Elite Inn,Hyderabad,Deluxe,Leisure,Walk-in,9000,2,18000,Cancelled,4,Yes
+B0243,2025-02-11,2025-03-05,2025-03-11,Grand Hotel,Mumbai,Suite,Leisure,Travel Agent,7000,6,42000,Occupied,4,No
+B0244,2025-04-25,2025-05-22,2025-05-23,Urban Residency,Hyderabad,Suite,Leisure,Travel Agent,2500,1,2500,Cancelled,4,Yes
+B0245,2025-05-07,2025-05-22,2025-05-25,Grand Hotel,Bangalore,Suite,Leisure,Online,3500,3,10500,Occupied,5,No
+B0246,2025-05-04,2025-05-11,2025-05-12,Urban Residency,Bangalore,Standard,Family,Online,2500,1,2500,Occupied,4,No
+B0247,2025-07-25,2025-08-09,2025-08-11,Royal Stay,Chennai,Deluxe,Business,Corporate,7000,2,14000,Occupied,3,No
+B0248,2025-10-23,2025-11-12,2025-11-19,Elite Inn,Mumbai,Suite,Family,Travel Agent,9000,7,63000,Occupied,3,No
+B0249,2025-07-31,2025-08-10,2025-08-13,Royal Stay,Hyderabad,Suite,Leisure,Online,2500,3,7500,Occupied,5,No
+B0250,2025-06-26,2025-07-17,2025-07-23,Skyline Suites,Hyderabad,Standard,Leisure,Walk-in,5500,6,33000,Occupied,4,No
+B0251,2025-04-05,2025-04-30,2025-05-05,Elite Inn,Mumbai,Deluxe,Business,Walk-in,5500,5,27500,Occupied,3,No
+B0252,2025-08-02,2025-08-20,2025-08-25,Royal Stay,Delhi,Suite,Business,Walk-in,3500,5,17500,Occupied,4,No
+B0253,2025-07-09,2025-07-12,2025-07-17,Elite Inn,Hyderabad,Suite,Family,Online,9000,5,45000,Occupied,3,No
+B0254,2025-02-07,2025-02-14,2025-02-21,Royal Stay,Hyderabad,Standard,Leisure,Corporate,7000,7,49000,Occupied,5,No
+B0255,2025-01-08,2025-01-15,2025-01-17,Royal Stay,Chennai,Suite,Business,Walk-in,9000,2,18000,Occupied,4,No
+B0256,2025-05-03,2025-05-21,2025-05-24,Elite Inn,Delhi,Deluxe,Leisure,Walk-in,4500,3,13500,Occupied,5,No
+B0257,2025-08-27,2025-08-31,2025-09-07,Royal Stay,Delhi,Deluxe,Leisure,Online,9000,7,63000,Occupied,4,No
+B0258,2025-10-16,2025-11-13,2025-11-15,Urban Residency,Chennai,Suite,Family,Walk-in,9000,2,18000,Occupied,4,No
+B0259,2025-06-01,2025-06-06,2025-06-08,Royal Stay,Hyderabad,Suite,Family,Corporate,4500,2,9000,Occupied,5,No
+B0260,2025-05-12,2025-06-06,2025-06-13,Skyline Suites,Mumbai,Suite,Leisure,Travel Agent,5500,7,38500,Cancelled,4,Yes
+B0261,2025-03-13,2025-04-06,2025-04-11,Grand Hotel,Chennai,Standard,Business,Online,5500,5,27500,Occupied,5,No
+B0262,2025-01-04,2025-01-18,2025-01-20,Royal Stay,Bangalore,Standard,Family,Walk-in,9000,2,18000,Occupied,5,No
+B0263,2025-07-11,2025-07-13,2025-07-18,Skyline Suites,Hyderabad,Standard,Business,Walk-in,9000,5,45000,Occupied,5,No
+B0264,2025-01-07,2025-01-08,2025-01-13,Grand Hotel,Chennai,Suite,Family,Walk-in,9000,5,45000,Occupied,4,No
+B0265,2025-04-02,2025-04-06,2025-04-07,Urban Residency,Chennai,Deluxe,Leisure,Corporate,7000,1,7000,Occupied,3,No
+B0266,2025-07-23,2025-07-26,2025-07-29,Royal Stay,Delhi,Suite,Business,Online,5500,3,16500,Occupied,3,No
+B0267,2025-02-17,2025-03-02,2025-03-06,Grand Hotel,Mumbai,Standard,Leisure,Walk-in,5500,4,22000,Occupied,3,No
+B0268,2025-11-27,2025-12-23,2025-12-26,Urban Residency,Bangalore,Standard,Business,Walk-in,7000,3,21000,Cancelled,1,Yes
+B0269,2025-05-19,2025-05-21,2025-05-22,Royal Stay,Delhi,Standard,Business,Travel Agent,9000,1,9000,Cancelled,1,Yes
+B0270,2025-12-31,2026-01-27,2026-01-31,Royal Stay,Chennai,Deluxe,Family,Corporate,2500,4,10000,Occupied,5,No
+B0271,2025-07-16,2025-08-10,2025-08-16,Grand Hotel,Chennai,Suite,Leisure,Online,3500,6,21000,Occupied,5,No
+B0272,2025-02-20,2025-03-06,2025-03-08,Urban Residency,Hyderabad,Deluxe,Business,Corporate,2500,2,5000,Occupied,5,No
+B0273,2025-08-19,2025-09-04,2025-09-06,Skyline Suites,Mumbai,Suite,Family,Walk-in,4500,2,9000,Occupied,4,No
+B0274,2025-02-13,2025-03-10,2025-03-15,Grand Hotel,Bangalore,Deluxe,Business,Walk-in,4500,5,22500,Occupied,5,No
+B0275,2025-12-31,2026-01-26,2026-02-01,Elite Inn,Bangalore,Standard,Business,Corporate,3500,6,21000,Occupied,4,No
+B0276,2025-08-16,2025-08-28,2025-09-04,Royal Stay,Hyderabad,Deluxe,Family,Walk-in,4500,7,31500,Occupied,3,No
+B0277,2025-02-22,2025-02-23,2025-02-24,Urban Residency,Delhi,Deluxe,Business,Corporate,4500,1,4500,Occupied,5,No
+B0278,2025-07-31,2025-08-13,2025-08-20,Royal Stay,Chennai,Suite,Business,Walk-in,2500,7,17500,Occupied,5,No
+B0279,2025-03-28,2025-04-02,2025-04-05,Grand Hotel,Mumbai,Deluxe,Leisure,Walk-in,4500,3,13500,Occupied,3,No
+B0280,2025-06-03,2025-06-19,2025-06-26,Skyline Suites,Chennai,Suite,Business,Walk-in,2500,7,17500,Occupied,3,No
+B0281,2025-02-24,2025-03-01,2025-03-04,Urban Residency,Hyderabad,Deluxe,Leisure,Corporate,2500,3,7500,Cancelled,3,Yes
+B0282,2025-08-09,2025-09-05,2025-09-12,Elite Inn,Delhi,Suite,Family,Travel Agent,9000,7,63000,Cancelled,2,Yes
+B0283,2025-09-03,2025-09-14,2025-09-16,Skyline Suites,Chennai,Standard,Leisure,Walk-in,5500,2,11000,Cancelled,3,Yes
+B0284,2025-05-24,2025-06-20,2025-06-27,Royal Stay,Chennai,Suite,Business,Online,5500,7,38500,Occupied,5,No
+B0285,2025-08-25,2025-09-17,2025-09-19,Grand Hotel,Hyderabad,Suite,Leisure,Travel Agent,5500,2,11000,Occupied,5,No
+B0286,2025-11-21,2025-12-01,2025-12-03,Skyline Suites,Hyderabad,Standard,Leisure,Walk-in,4500,2,9000,Occupied,5,No
+B0287,2025-10-26,2025-11-08,2025-11-13,Urban Residency,Bangalore,Deluxe,Family,Online,7000,5,35000,Cancelled,4,Yes
+B0288,2025-02-25,2025-03-22,2025-03-24,Urban Residency,Bangalore,Suite,Family,Walk-in,9000,2,18000,Occupied,3,No
+B0289,2025-06-19,2025-07-15,2025-07-19,Royal Stay,Chennai,Suite,Family,Travel Agent,2500,4,10000,Occupied,4,No
+B0290,2025-08-17,2025-08-29,2025-09-02,Urban Residency,Mumbai,Deluxe,Business,Walk-in,5500,4,22000,Occupied,5,No
+B0291,2025-02-23,2025-03-05,2025-03-09,Royal Stay,Delhi,Deluxe,Leisure,Walk-in,2500,4,10000,Occupied,5,No
+B0292,2025-04-16,2025-05-03,2025-05-07,Skyline Suites,Delhi,Standard,Leisure,Online,4500,4,18000,Occupied,4,No
+B0293,2025-12-30,2026-01-03,2026-01-04,Royal Stay,Mumbai,Suite,Business,Travel Agent,4500,1,4500,Occupied,5,No
+B0294,2025-06-19,2025-07-07,2025-07-11,Royal Stay,Mumbai,Suite,Family,Walk-in,5500,4,22000,Occupied,4,No
+B0295,2025-07-22,2025-07-23,2025-07-29,Urban Residency,Hyderabad,Deluxe,Business,Travel Agent,7000,6,42000,Cancelled,4,Yes
+B0296,2025-04-16,2025-04-25,2025-05-02,Urban Residency,Bangalore,Suite,Business,Corporate,9000,7,63000,Occupied,3,No
+B0297,2025-06-16,2025-06-23,2025-06-27,Urban Residency,Delhi,Suite,Leisure,Walk-in,2500,4,10000,Occupied,4,No
+B0298,2025-10-28,2025-11-01,2025-11-04,Royal Stay,Delhi,Suite,Family,Online,4500,3,13500,Occupied,5,No
+B0299,2025-12-11,2025-12-16,2025-12-19,Royal Stay,Delhi,Suite,Business,Walk-in,2500,3,7500,Occupied,3,No
+B0300,2025-08-03,2025-08-23,2025-08-25,Skyline Suites,Chennai,Suite,Family,Travel Agent,7000,2,14000,Occupied,3,No
+B0301,2025-10-12,2025-10-18,2025-10-22,Skyline Suites,Chennai,Standard,Leisure,Online,4500,4,18000,Occupied,4,No
+B0302,2025-09-06,2025-09-11,2025-09-13,Skyline Suites,Hyderabad,Deluxe,Family,Walk-in,5500,2,11000,Cancelled,4,Yes
+B0303,2025-09-08,2025-09-14,2025-09-15,Elite Inn,Bangalore,Deluxe,Business,Corporate,7000,1,7000,Occupied,3,No
+B0304,2025-03-28,2025-04-22,2025-04-26,Urban Residency,Chennai,Standard,Family,Online,7000,4,28000,Occupied,4,No
+B0305,2025-05-18,2025-06-12,2025-06-17,Skyline Suites,Chennai,Standard,Leisure,Online,4500,5,22500,Occupied,3,No
+B0306,2025-12-01,2025-12-26,2025-12-28,Skyline Suites,Delhi,Deluxe,Business,Walk-in,4500,2,9000,Cancelled,1,Yes
+B0307,2025-03-02,2025-03-27,2025-04-03,Urban Residency,Delhi,Suite,Family,Walk-in,3500,7,24500,Occupied,5,No
+B0308,2025-03-26,2025-04-15,2025-04-17,Urban Residency,Delhi,Suite,Leisure,Travel Agent,3500,2,7000,Occupied,3,No
+B0309,2025-06-15,2025-07-08,2025-07-11,Grand Hotel,Mumbai,Deluxe,Business,Corporate,4500,3,13500,Occupied,5,No
+B0310,2025-12-02,2025-12-07,2025-12-13,Elite Inn,Mumbai,Suite,Leisure,Walk-in,3500,6,21000,Occupied,5,No
+B0311,2025-03-14,2025-04-02,2025-04-08,Skyline Suites,Bangalore,Suite,Business,Walk-in,4500,6,27000,Occupied,4,No
+B0312,2025-09-21,2025-10-15,2025-10-18,Skyline Suites,Hyderabad,Deluxe,Family,Online,9000,3,27000,Cancelled,3,Yes
+B0313,2025-02-17,2025-03-13,2025-03-17,Grand Hotel,Chennai,Deluxe,Business,Walk-in,9000,4,36000,Occupied,4,No
+B0314,2025-04-19,2025-05-05,2025-05-08,Urban Residency,Chennai,Standard,Family,Walk-in,4500,3,13500,Occupied,4,No
+B0315,2025-06-25,2025-07-24,2025-07-30,Skyline Suites,Bangalore,Standard,Business,Walk-in,2500,6,15000,Occupied,5,No
+B0316,2025-08-22,2025-08-23,2025-08-27,Elite Inn,Mumbai,Deluxe,Business,Corporate,3500,4,14000,Cancelled,2,Yes
+B0317,2025-05-09,2025-05-12,2025-05-15,Grand Hotel,Hyderabad,Suite,Leisure,Travel Agent,9000,3,27000,Cancelled,2,Yes
+B0318,2025-08-08,2025-08-29,2025-08-30,Skyline Suites,Bangalore,Standard,Family,Travel Agent,9000,1,9000,Occupied,3,No
+B0319,2025-09-23,2025-10-15,2025-10-19,Grand Hotel,Hyderabad,Suite,Business,Walk-in,2500,4,10000,Occupied,4,No
+B0320,2025-02-06,2025-02-14,2025-02-18,Grand Hotel,Delhi,Deluxe,Leisure,Travel Agent,2500,4,10000,Occupied,3,No
+B0321,2025-07-15,2025-08-09,2025-08-16,Royal Stay,Bangalore,Suite,Family,Online,3500,7,24500,Occupied,5,No
+B0322,2025-11-09,2025-11-30,2025-12-02,Royal Stay,Hyderabad,Suite,Family,Walk-in,5500,2,11000,Occupied,3,No
+B0323,2025-04-22,2025-04-25,2025-04-26,Skyline Suites,Delhi,Deluxe,Leisure,Travel Agent,3500,1,3500,Occupied,5,No
+B0324,2025-05-07,2025-05-16,2025-05-22,Urban Residency,Chennai,Deluxe,Family,Online,2500,6,15000,Occupied,5,No
+B0325,2025-12-04,2026-01-02,2026-01-05,Royal Stay,Hyderabad,Deluxe,Family,Online,3500,3,10500,Occupied,5,No
+B0326,2025-05-03,2025-05-19,2025-05-23,Urban Residency,Bangalore,Suite,Business,Corporate,2500,4,10000,Occupied,5,No
+B0327,2025-06-12,2025-06-17,2025-06-21,Royal Stay,Hyderabad,Standard,Business,Online,7000,4,28000,Occupied,5,No
+B0328,2025-01-08,2025-01-17,2025-01-19,Urban Residency,Delhi,Suite,Family,Walk-in,2500,2,5000,Cancelled,4,Yes
+B0329,2025-08-05,2025-08-28,2025-09-01,Urban Residency,Mumbai,Deluxe,Business,Corporate,2500,4,10000,Occupied,5,No
+B0330,2025-02-10,2025-02-27,2025-03-01,Urban Residency,Bangalore,Deluxe,Family,Walk-in,3500,2,7000,Occupied,4,No
+B0331,2025-05-03,2025-05-05,2025-05-07,Skyline Suites,Chennai,Suite,Business,Corporate,2500,2,5000,Cancelled,1,Yes
+B0332,2025-12-08,2026-01-01,2026-01-07,Royal Stay,Bangalore,Standard,Leisure,Corporate,9000,6,54000,Occupied,3,No
+B0333,2025-09-25,2025-10-12,2025-10-19,Royal Stay,Delhi,Suite,Business,Online,9000,7,63000,Occupied,4,No
+B0334,2025-06-21,2025-07-17,2025-07-21,Urban Residency,Bangalore,Deluxe,Leisure,Corporate,4500,4,18000,Occupied,4,No
+B0335,2025-01-29,2025-02-14,2025-02-21,Elite Inn,Bangalore,Suite,Family,Online,7000,7,49000,Occupied,3,No
+B0336,2025-04-27,2025-05-21,2025-05-26,Royal Stay,Bangalore,Deluxe,Leisure,Walk-in,2500,5,12500,Occupied,3,No
+B0337,2025-03-18,2025-03-24,2025-03-31,Skyline Suites,Mumbai,Deluxe,Business,Walk-in,2500,7,17500,Occupied,5,No
+B0338,2025-06-13,2025-06-22,2025-06-29,Urban Residency,Bangalore,Standard,Business,Online,2500,7,17500,Occupied,3,No
+B0339,2025-07-25,2025-07-28,2025-08-01,Elite Inn,Bangalore,Suite,Leisure,Online,4500,4,18000,Occupied,4,No
+B0340,2025-07-08,2025-07-15,2025-07-18,Urban Residency,Mumbai,Deluxe,Leisure,Walk-in,7000,3,21000,Occupied,5,No
+B0341,2025-04-11,2025-05-05,2025-05-10,Grand Hotel,Mumbai,Suite,Leisure,Online,3500,5,17500,Occupied,4,No
+B0342,2025-06-21,2025-06-22,2025-06-29,Elite Inn,Bangalore,Standard,Family,Travel Agent,9000,7,63000,Occupied,5,No
+B0343,2025-08-03,2025-08-19,2025-08-20,Grand Hotel,Mumbai,Suite,Leisure,Corporate,3500,1,3500,Occupied,3,No
+B0344,2025-08-23,2025-09-16,2025-09-17,Skyline Suites,Bangalore,Suite,Family,Online,7000,1,7000,Occupied,3,No
+B0345,2025-08-11,2025-09-02,2025-09-04,Skyline Suites,Delhi,Deluxe,Leisure,Corporate,3500,2,7000,Occupied,4,No
+B0346,2025-04-30,2025-05-03,2025-05-05,Grand Hotel,Mumbai,Standard,Business,Walk-in,3500,2,7000,Occupied,5,No
+B0347,2025-08-27,2025-09-07,2025-09-11,Skyline Suites,Delhi,Deluxe,Leisure,Online,2500,4,10000,Occupied,3,No
+B0348,2025-02-16,2025-02-22,2025-03-01,Urban Residency,Bangalore,Standard,Leisure,Travel Agent,9000,7,63000,Occupied,5,No
+B0349,2025-02-16,2025-03-11,2025-03-13,Elite Inn,Delhi,Standard,Business,Walk-in,4500,2,9000,Occupied,3,No
+B0350,2025-08-20,2025-09-07,2025-09-13,Grand Hotel,Mumbai,Standard,Business,Online,7000,6,42000,Occupied,4,No
+B0351,2025-04-24,2025-04-29,2025-05-01,Grand Hotel,Chennai,Suite,Leisure,Online,5500,2,11000,Occupied,5,No
+B0352,2025-01-12,2025-01-15,2025-01-17,Grand Hotel,Delhi,Standard,Business,Walk-in,9000,2,18000,Occupied,3,No
+B0353,2025-01-26,2025-02-01,2025-02-06,Skyline Suites,Bangalore,Deluxe,Family,Walk-in,5500,5,27500,Occupied,4,No
+B0354,2025-03-30,2025-04-11,2025-04-13,Royal Stay,Bangalore,Suite,Family,Travel Agent,3500,2,7000,Occupied,4,No
+B0355,2025-11-28,2025-12-08,2025-12-12,Grand Hotel,Bangalore,Deluxe,Leisure,Travel Agent,5500,4,22000,Cancelled,4,Yes
+B0356,2025-08-03,2025-08-10,2025-08-16,Grand Hotel,Hyderabad,Suite,Leisure,Walk-in,7000,6,42000,Occupied,5,No
+B0357,2025-10-06,2025-11-01,2025-11-05,Skyline Suites,Delhi,Standard,Business,Corporate,4500,4,18000,Cancelled,3,Yes
+B0358,2025-11-02,2025-11-10,2025-11-11,Urban Residency,Delhi,Suite,Business,Travel Agent,4500,1,4500,Occupied,4,No
+B0359,2025-02-21,2025-03-01,2025-03-07,Grand Hotel,Mumbai,Suite,Leisure,Corporate,3500,6,21000,Occupied,5,No
+B0360,2025-03-30,2025-04-05,2025-04-07,Elite Inn,Chennai,Standard,Family,Corporate,7000,2,14000,Occupied,5,No
+B0361,2025-10-18,2025-11-06,2025-11-08,Urban Residency,Delhi,Standard,Leisure,Online,7000,2,14000,Cancelled,4,Yes
+B0362,2025-02-16,2025-02-18,2025-02-20,Skyline Suites,Bangalore,Deluxe,Family,Travel Agent,7000,2,14000,Occupied,5,No
+B0363,2025-03-08,2025-03-19,2025-03-25,Grand Hotel,Bangalore,Standard,Family,Travel Agent,3500,6,21000,Cancelled,3,Yes
+B0364,2025-02-26,2025-03-26,2025-03-31,Skyline Suites,Chennai,Standard,Leisure,Corporate,4500,5,22500,Cancelled,3,Yes
+B0365,2025-06-15,2025-06-20,2025-06-22,Elite Inn,Mumbai,Suite,Family,Corporate,9000,2,18000,Cancelled,4,Yes
+B0366,2025-04-25,2025-05-17,2025-05-22,Elite Inn,Mumbai,Standard,Family,Online,3500,5,17500,Occupied,5,No
+B0367,2025-12-26,2026-01-14,2026-01-18,Elite Inn,Chennai,Standard,Family,Online,7000,4,28000,Occupied,5,No
+B0368,2025-09-12,2025-09-17,2025-09-20,Elite Inn,Mumbai,Suite,Business,Corporate,9000,3,27000,Occupied,4,No
+B0369,2025-08-17,2025-08-18,2025-08-21,Elite Inn,Delhi,Standard,Family,Online,3500,3,10500,Occupied,3,No
+B0370,2025-01-25,2025-02-07,2025-02-11,Skyline Suites,Hyderabad,Deluxe,Leisure,Walk-in,9000,4,36000,Occupied,3,No
+B0371,2025-02-21,2025-03-20,2025-03-24,Royal Stay,Mumbai,Deluxe,Business,Online,7000,4,28000,Occupied,5,No
+B0372,2025-05-31,2025-06-01,2025-06-04,Elite Inn,Mumbai,Deluxe,Business,Online,4500,3,13500,Cancelled,1,Yes
+B0373,2025-10-08,2025-11-06,2025-11-07,Skyline Suites,Bangalore,Deluxe,Family,Travel Agent,4500,1,4500,Occupied,5,No
+B0374,2025-11-07,2025-12-06,2025-12-10,Royal Stay,Mumbai,Deluxe,Family,Corporate,3500,4,14000,Occupied,4,No
+B0375,2025-12-05,2025-12-15,2025-12-18,Urban Residency,Chennai,Deluxe,Business,Online,3500,3,10500,Occupied,4,No
+B0376,2025-07-04,2025-07-05,2025-07-09,Urban Residency,Hyderabad,Standard,Business,Online,2500,4,10000,Occupied,5,No
+B0377,2025-04-16,2025-04-22,2025-04-28,Grand Hotel,Delhi,Deluxe,Leisure,Walk-in,4500,6,27000,Cancelled,4,Yes
+B0378,2025-12-05,2025-12-14,2025-12-15,Elite Inn,Hyderabad,Deluxe,Business,Walk-in,9000,1,9000,Occupied,3,No
+B0379,2025-01-23,2025-02-01,2025-02-05,Urban Residency,Bangalore,Standard,Family,Online,5500,4,22000,Occupied,4,No
+B0380,2025-02-13,2025-03-07,2025-03-10,Royal Stay,Chennai,Standard,Leisure,Walk-in,7000,3,21000,Occupied,5,No
+B0381,2025-10-02,2025-10-24,2025-10-31,Skyline Suites,Delhi,Standard,Leisure,Online,5500,7,38500,Occupied,3,No
+B0382,2025-09-15,2025-10-04,2025-10-09,Royal Stay,Bangalore,Deluxe,Business,Travel Agent,7000,5,35000,Occupied,5,No
+B0383,2025-04-19,2025-05-15,2025-05-17,Skyline Suites,Mumbai,Suite,Business,Corporate,3500,2,7000,Occupied,3,No
+B0384,2025-06-13,2025-07-13,2025-07-19,Skyline Suites,Chennai,Deluxe,Leisure,Walk-in,2500,6,15000,Occupied,5,No
+B0385,2025-01-07,2025-02-02,2025-02-08,Grand Hotel,Hyderabad,Standard,Business,Online,7000,6,42000,Occupied,4,No
+B0386,2025-02-24,2025-03-15,2025-03-22,Elite Inn,Hyderabad,Deluxe,Leisure,Walk-in,2500,7,17500,Occupied,5,No
+B0387,2025-10-20,2025-11-09,2025-11-13,Royal Stay,Chennai,Suite,Family,Walk-in,2500,4,10000,Occupied,4,No
+B0388,2025-01-20,2025-02-02,2025-02-05,Skyline Suites,Delhi,Deluxe,Business,Corporate,9000,3,27000,Occupied,5,No
+B0389,2025-06-05,2025-06-15,2025-06-18,Royal Stay,Mumbai,Deluxe,Family,Walk-in,5500,3,16500,Cancelled,1,Yes
+B0390,2025-06-14,2025-06-23,2025-06-29,Royal Stay,Hyderabad,Standard,Leisure,Walk-in,5500,6,33000,Occupied,3,No
+B0391,2025-09-22,2025-10-20,2025-10-23,Grand Hotel,Delhi,Suite,Family,Walk-in,2500,3,7500,Occupied,3,No
+B0392,2025-03-11,2025-04-05,2025-04-12,Royal Stay,Mumbai,Standard,Business,Travel Agent,7000,7,49000,Cancelled,1,Yes
+B0393,2025-01-17,2025-02-01,2025-02-02,Elite Inn,Hyderabad,Suite,Leisure,Online,4500,1,4500,Occupied,4,No
+B0394,2025-12-15,2025-12-16,2025-12-18,Royal Stay,Hyderabad,Suite,Family,Corporate,4500,2,9000,Occupied,4,No
+B0395,2025-06-26,2025-07-02,2025-07-09,Grand Hotel,Delhi,Standard,Leisure,Online,4500,7,31500,Occupied,5,No
+B0396,2025-03-25,2025-04-22,2025-04-27,Royal Stay,Delhi,Suite,Leisure,Online,3500,5,17500,Cancelled,2,Yes
+B0397,2025-12-16,2025-12-17,2025-12-21,Grand Hotel,Mumbai,Deluxe,Family,Corporate,3500,4,14000,Occupied,5,No
+B0398,2025-12-31,2026-01-23,2026-01-29,Elite Inn,Hyderabad,Deluxe,Business,Walk-in,4500,6,27000,Occupied,4,No
+B0399,2025-06-04,2025-06-26,2025-07-01,Grand Hotel,Chennai,Suite,Leisure,Corporate,7000,5,35000,Occupied,3,No
+B0400,2025-06-02,2025-06-24,2025-06-25,Elite Inn,Delhi,Deluxe,Family,Corporate,5500,1,5500,Occupied,4,No
+B0401,2025-04-07,2025-04-12,2025-04-17,Elite Inn,Mumbai,Suite,Business,Walk-in,3500,5,17500,Cancelled,4,Yes
+B0402,2025-06-01,2025-06-10,2025-06-14,Urban Residency,Chennai,Standard,Leisure,Travel Agent,5500,4,22000,Occupied,3,No
+B0403,2025-12-18,2026-01-05,2026-01-11,Urban Residency,Delhi,Standard,Family,Travel Agent,5500,6,33000,Cancelled,3,Yes
+B0404,2025-05-31,2025-06-04,2025-06-08,Urban Residency,Mumbai,Suite,Leisure,Online,3500,4,14000,Occupied,5,No
+B0405,2025-04-24,2025-05-06,2025-05-08,Elite Inn,Delhi,Deluxe,Family,Corporate,9000,2,18000,Cancelled,4,Yes
+B0406,2025-08-26,2025-09-23,2025-09-24,Urban Residency,Chennai,Suite,Business,Walk-in,5500,1,5500,Occupied,5,No
+B0407,2025-04-10,2025-04-27,2025-04-28,Skyline Suites,Bangalore,Standard,Business,Travel Agent,9000,1,9000,Occupied,4,No
+B0408,2025-06-25,2025-07-09,2025-07-14,Royal Stay,Bangalore,Deluxe,Leisure,Travel Agent,5500,5,27500,Occupied,5,No
+B0409,2025-06-10,2025-07-01,2025-07-02,Royal Stay,Chennai,Standard,Leisure,Online,2500,1,2500,Occupied,3,No
+B0410,2025-03-08,2025-03-28,2025-04-01,Skyline Suites,Hyderabad,Standard,Business,Travel Agent,9000,4,36000,Occupied,4,No
+B0411,2025-07-11,2025-07-12,2025-07-15,Grand Hotel,Mumbai,Standard,Family,Corporate,7000,3,21000,Occupied,5,No
+B0412,2025-06-09,2025-06-14,2025-06-15,Royal Stay,Bangalore,Standard,Leisure,Corporate,5500,1,5500,Occupied,4,No
+B0413,2025-08-22,2025-09-15,2025-09-20,Royal Stay,Delhi,Deluxe,Leisure,Travel Agent,7000,5,35000,Occupied,4,No
+B0414,2025-03-26,2025-04-25,2025-05-02,Royal Stay,Mumbai,Suite,Business,Travel Agent,5500,7,38500,Occupied,3,No
+B0415,2025-03-05,2025-03-17,2025-03-23,Elite Inn,Chennai,Suite,Business,Online,9000,6,54000,Occupied,4,No
+B0416,2025-12-05,2025-12-09,2025-12-15,Skyline Suites,Hyderabad,Deluxe,Business,Corporate,2500,6,15000,Occupied,3,No
+B0417,2025-08-31,2025-09-23,2025-09-25,Grand Hotel,Delhi,Deluxe,Family,Online,3500,2,7000,Occupied,5,No
+B0418,2025-12-06,2025-12-23,2025-12-26,Skyline Suites,Bangalore,Suite,Family,Online,7000,3,21000,Occupied,3,No
+B0419,2025-05-25,2025-05-29,2025-06-05,Royal Stay,Delhi,Suite,Business,Corporate,2500,7,17500,Occupied,5,No
+B0420,2025-12-27,2026-01-10,2026-01-13,Royal Stay,Hyderabad,Deluxe,Business,Online,3500,3,10500,Occupied,4,No
+B0421,2025-01-07,2025-01-29,2025-01-30,Skyline Suites,Mumbai,Standard,Family,Online,2500,1,2500,Occupied,5,No
+B0422,2025-02-21,2025-03-22,2025-03-25,Elite Inn,Hyderabad,Standard,Business,Travel Agent,9000,3,27000,Occupied,4,No
+B0423,2025-01-21,2025-02-18,2025-02-21,Skyline Suites,Bangalore,Standard,Business,Online,4500,3,13500,Occupied,4,No
+B0424,2025-03-12,2025-04-03,2025-04-09,Urban Residency,Delhi,Suite,Business,Corporate,3500,6,21000,Occupied,4,No
+B0425,2025-06-25,2025-07-01,2025-07-02,Elite Inn,Hyderabad,Suite,Leisure,Walk-in,5500,1,5500,Occupied,4,No
+B0426,2025-11-29,2025-12-28,2026-01-04,Grand Hotel,Mumbai,Standard,Leisure,Walk-in,3500,7,24500,Occupied,5,No
+B0427,2025-10-19,2025-11-10,2025-11-14,Urban Residency,Bangalore,Suite,Family,Travel Agent,3500,4,14000,Occupied,4,No
+B0428,2025-09-05,2025-10-05,2025-10-09,Grand Hotel,Bangalore,Deluxe,Family,Corporate,2500,4,10000,Cancelled,4,Yes
+B0429,2025-01-07,2025-01-30,2025-02-06,Urban Residency,Chennai,Standard,Family,Corporate,9000,7,63000,Occupied,5,No
+B0430,2025-09-23,2025-10-10,2025-10-16,Royal Stay,Hyderabad,Deluxe,Family,Walk-in,9000,6,54000,Occupied,4,No
+B0431,2025-03-18,2025-04-14,2025-04-21,Grand Hotel,Mumbai,Suite,Leisure,Walk-in,7000,7,49000,Cancelled,1,Yes
+B0432,2025-03-26,2025-03-29,2025-04-05,Elite Inn,Bangalore,Suite,Business,Walk-in,5500,7,38500,Occupied,4,No
+B0433,2025-07-26,2025-08-22,2025-08-24,Skyline Suites,Bangalore,Deluxe,Leisure,Corporate,2500,2,5000,Occupied,5,No
+B0434,2025-03-02,2025-03-18,2025-03-24,Skyline Suites,Bangalore,Suite,Family,Online,9000,6,54000,Occupied,4,No
+B0435,2025-02-16,2025-03-14,2025-03-19,Urban Residency,Mumbai,Suite,Family,Walk-in,7000,5,35000,Occupied,5,No
+B0436,2025-06-24,2025-07-06,2025-07-13,Elite Inn,Chennai,Suite,Family,Walk-in,2500,7,17500,Occupied,4,No
+B0437,2025-12-03,2025-12-15,2025-12-21,Royal Stay,Bangalore,Deluxe,Leisure,Corporate,5500,6,33000,Occupied,5,No
+B0438,2025-10-08,2025-10-25,2025-10-28,Skyline Suites,Mumbai,Suite,Family,Walk-in,9000,3,27000,Occupied,3,No
+B0439,2025-02-24,2025-03-05,2025-03-10,Royal Stay,Hyderabad,Standard,Family,Corporate,3500,5,17500,Occupied,4,No
+B0440,2025-02-25,2025-03-22,2025-03-26,Skyline Suites,Hyderabad,Suite,Family,Travel Agent,2500,4,10000,Cancelled,1,Yes
+B0441,2025-09-13,2025-09-14,2025-09-19,Urban Residency,Hyderabad,Suite,Business,Travel Agent,9000,5,45000,Occupied,4,No
+B0442,2025-03-07,2025-03-11,2025-03-15,Urban Residency,Hyderabad,Deluxe,Family,Travel Agent,9000,4,36000,Occupied,4,No
+B0443,2025-05-21,2025-06-03,2025-06-06,Royal Stay,Hyderabad,Suite,Family,Corporate,4500,3,13500,Occupied,3,No
+B0444,2025-12-26,2026-01-13,2026-01-20,Royal Stay,Mumbai,Standard,Family,Corporate,4500,7,31500,Occupied,5,No
+B0445,2025-12-18,2025-12-30,2026-01-05,Urban Residency,Chennai,Suite,Family,Corporate,3500,6,21000,Cancelled,2,Yes
+B0446,2025-12-30,2026-01-03,2026-01-10,Urban Residency,Hyderabad,Suite,Family,Corporate,4500,7,31500,Occupied,5,No
+B0447,2025-08-05,2025-08-31,2025-09-01,Royal Stay,Bangalore,Suite,Business,Travel Agent,7000,1,7000,Occupied,4,No
+B0448,2025-05-17,2025-06-11,2025-06-18,Royal Stay,Bangalore,Suite,Leisure,Travel Agent,3500,7,24500,Cancelled,3,Yes
+B0449,2025-10-05,2025-10-07,2025-10-10,Urban Residency,Mumbai,Suite,Family,Walk-in,5500,3,16500,Occupied,5,No
+B0450,2025-05-02,2025-05-19,2025-05-26,Grand Hotel,Hyderabad,Deluxe,Leisure,Corporate,9000,7,63000,Occupied,5,No
+B0451,2025-10-10,2025-10-12,2025-10-13,Skyline Suites,Mumbai,Suite,Family,Corporate,9000,1,9000,Occupied,5,No
+B0452,2025-10-29,2025-11-16,2025-11-22,Royal Stay,Delhi,Deluxe,Business,Online,7000,6,42000,Occupied,5,No
+B0453,2025-04-06,2025-04-12,2025-04-18,Skyline Suites,Delhi,Suite,Leisure,Travel Agent,7000,6,42000,Occupied,3,No
+B0454,2025-03-24,2025-04-12,2025-04-19,Royal Stay,Bangalore,Standard,Leisure,Online,4500,7,31500,Occupied,4,No
+B0455,2025-11-17,2025-12-07,2025-12-14,Urban Residency,Delhi,Standard,Family,Corporate,9000,7,63000,Occupied,5,No
+B0456,2025-09-27,2025-10-05,2025-10-07,Royal Stay,Hyderabad,Suite,Family,Walk-in,7000,2,14000,Occupied,5,No
+B0457,2025-02-17,2025-03-01,2025-03-03,Elite Inn,Delhi,Standard,Family,Walk-in,3500,2,7000,Occupied,4,No
+B0458,2025-10-15,2025-11-11,2025-11-18,Elite Inn,Hyderabad,Standard,Family,Travel Agent,9000,7,63000,Occupied,5,No
+B0459,2025-01-21,2025-02-12,2025-02-15,Skyline Suites,Delhi,Suite,Family,Corporate,5500,3,16500,Cancelled,1,Yes
+B0460,2025-01-13,2025-02-12,2025-02-17,Skyline Suites,Hyderabad,Standard,Leisure,Travel Agent,4500,5,22500,Occupied,5,No
+B0461,2025-06-14,2025-07-01,2025-07-02,Urban Residency,Bangalore,Suite,Business,Travel Agent,2500,1,2500,Occupied,5,No
+B0462,2025-12-10,2025-12-31,2026-01-07,Grand Hotel,Mumbai,Suite,Family,Walk-in,3500,7,24500,Cancelled,4,Yes
+B0463,2025-11-28,2025-12-25,2025-12-26,Skyline Suites,Delhi,Standard,Business,Online,9000,1,9000,Occupied,3,No
+B0464,2025-01-28,2025-02-03,2025-02-10,Royal Stay,Delhi,Deluxe,Leisure,Walk-in,4500,7,31500,Occupied,5,No
+B0465,2025-11-19,2025-12-02,2025-12-06,Grand Hotel,Chennai,Standard,Family,Online,4500,4,18000,Occupied,5,No
+B0466,2025-10-27,2025-10-29,2025-11-04,Grand Hotel,Delhi,Suite,Leisure,Online,2500,6,15000,Occupied,5,No
+B0467,2025-05-25,2025-06-19,2025-06-23,Grand Hotel,Hyderabad,Standard,Family,Travel Agent,5500,4,22000,Occupied,5,No
+B0468,2025-03-11,2025-04-04,2025-04-08,Royal Stay,Delhi,Suite,Family,Corporate,7000,4,28000,Occupied,5,No
+B0469,2025-01-06,2025-01-24,2025-01-31,Grand Hotel,Chennai,Suite,Leisure,Online,7000,7,49000,Occupied,3,No
+B0470,2025-06-06,2025-06-13,2025-06-19,Royal Stay,Hyderabad,Suite,Family,Travel Agent,9000,6,54000,Cancelled,3,Yes
+B0471,2025-03-24,2025-03-30,2025-04-01,Grand Hotel,Mumbai,Suite,Family,Online,7000,2,14000,Occupied,3,No
+B0472,2025-10-09,2025-10-24,2025-10-30,Grand Hotel,Delhi,Standard,Business,Walk-in,7000,6,42000,Occupied,5,No
+B0473,2025-06-19,2025-07-01,2025-07-03,Elite Inn,Chennai,Standard,Business,Corporate,9000,2,18000,Occupied,3,No
+B0474,2025-09-06,2025-09-21,2025-09-24,Urban Residency,Mumbai,Suite,Family,Corporate,7000,3,21000,Occupied,5,No
+B0475,2025-06-11,2025-06-25,2025-06-27,Skyline Suites,Delhi,Deluxe,Business,Corporate,2500,2,5000,Occupied,3,No
+B0476,2025-09-03,2025-09-18,2025-09-22,Urban Residency,Bangalore,Standard,Family,Online,4500,4,18000,Occupied,4,No
+B0477,2025-05-24,2025-06-21,2025-06-28,Elite Inn,Bangalore,Suite,Business,Online,3500,7,24500,Cancelled,2,Yes
+B0478,2025-09-17,2025-10-08,2025-10-09,Royal Stay,Bangalore,Suite,Leisure,Walk-in,7000,1,7000,Occupied,5,No
+B0479,2025-12-01,2025-12-26,2025-12-28,Elite Inn,Mumbai,Deluxe,Family,Online,4500,2,9000,Occupied,5,No
+B0480,2025-07-23,2025-08-04,2025-08-09,Royal Stay,Chennai,Standard,Leisure,Travel Agent,2500,5,12500,Occupied,5,No
+B0481,2025-04-02,2025-04-21,2025-04-26,Skyline Suites,Delhi,Standard,Business,Walk-in,9000,5,45000,Cancelled,2,Yes
+B0482,2025-04-29,2025-05-02,2025-05-05,Royal Stay,Chennai,Deluxe,Leisure,Walk-in,4500,3,13500,Occupied,5,No
+B0483,2025-08-21,2025-09-19,2025-09-20,Grand Hotel,Chennai,Suite,Leisure,Corporate,2500,1,2500,Cancelled,3,Yes
+B0484,2025-10-24,2025-11-11,2025-11-16,Elite Inn,Chennai,Suite,Business,Corporate,3500,5,17500,Occupied,4,No
+B0485,2025-07-12,2025-08-11,2025-08-13,Skyline Suites,Hyderabad,Suite,Business,Travel Agent,7000,2,14000,Occupied,4,No
+B0486,2025-08-14,2025-08-20,2025-08-22,Royal Stay,Mumbai,Standard,Business,Corporate,2500,2,5000,Occupied,4,No
+B0487,2025-11-05,2025-11-28,2025-12-05,Elite Inn,Bangalore,Deluxe,Family,Walk-in,2500,7,17500,Occupied,4,No
+B0488,2025-09-03,2025-09-10,2025-09-15,Grand Hotel,Mumbai,Standard,Business,Travel Agent,3500,5,17500,Occupied,4,No
+B0489,2025-03-10,2025-03-31,2025-04-05,Grand Hotel,Mumbai,Deluxe,Business,Walk-in,2500,5,12500,Cancelled,2,Yes
+B0490,2025-11-03,2025-11-22,2025-11-28,Grand Hotel,Mumbai,Deluxe,Family,Walk-in,2500,6,15000,Cancelled,3,Yes
+B0491,2025-09-04,2025-09-10,2025-09-12,Royal Stay,Chennai,Suite,Family,Corporate,5500,2,11000,Occupied,5,No
+B0492,2025-03-27,2025-04-20,2025-04-26,Royal Stay,Hyderabad,Deluxe,Business,Online,4500,6,27000,Cancelled,1,Yes
+B0493,2025-01-09,2025-01-16,2025-01-21,Urban Residency,Bangalore,Standard,Leisure,Online,7000,5,35000,Occupied,3,No
+B0494,2025-09-30,2025-10-17,2025-10-24,Royal Stay,Chennai,Suite,Business,Walk-in,2500,7,17500,Occupied,5,No
+B0495,2025-09-25,2025-10-09,2025-10-12,Royal Stay,Hyderabad,Deluxe,Leisure,Online,2500,3,7500,Occupied,4,No
+B0496,2025-08-06,2025-08-11,2025-08-14,Elite Inn,Chennai,Suite,Leisure,Corporate,5500,3,16500,Occupied,3,No
+B0497,2025-04-07,2025-04-08,2025-04-14,Urban Residency,Bangalore,Suite,Business,Walk-in,9000,6,54000,Occupied,5,No
+B0498,2025-12-02,2025-12-09,2025-12-15,Royal Stay,Hyderabad,Suite,Family,Corporate,4500,6,27000,Occupied,3,No
+B0499,2025-05-14,2025-06-11,2025-06-16,Elite Inn,Hyderabad,Standard,Leisure,Walk-in,5500,5,27500,Occupied,5,No
+B0500,2025-04-02,2025-04-14,2025-04-19,Urban Residency,Delhi,Suite,Leisure,Travel Agent,7000,5,35000,Occupied,4,No
