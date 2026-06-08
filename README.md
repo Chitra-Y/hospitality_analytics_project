@@ -8,15 +8,25 @@ This project analyzes hotel booking and revenue data using SQL, Excel, and Power
 
 ### Excel Dashboard
 
-![Excel Dashboard](Images/excel_dashboard.png)
+![Excel Dashboard](Images/excel_hospitality.png)
 
 ### Power BI Dashboard
 
-![Power BI Dashboard](Images/powerbi_dashboard.png)
+![Power BI Dashboard 1](Images/Powerbi_hospitality_1.png)
+
+![Power BI Dashboard 2](Images/Powerbi_hospitality_2.png)
+
+![Power BI Dashboard 3](Images/powerbi_hospitality_3.png)
 
 ### SQL Analysis
 
-![SQL Queries](Images/sql_queries.png)
+![SQL Analysis 1](Images/sql_hospitality_1.png)
+
+![SQL Analysis 2](Images/sql_hospitality_2.png)
+
+![SQL Analysis 3](Images/sql_hospitality_3.png)
+
+![SQL Analysis 4](Images/sql_hospitality_4.png)
 
 KPIs
 
