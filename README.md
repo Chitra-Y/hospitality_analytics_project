@@ -4,15 +4,19 @@ Project Overview
 
 This project analyzes hotel booking and revenue data using SQL, Excel, and Power BI. The objective is to identify business insights related to revenue generation, occupancy performance, customer behavior, booking channels, room preferences, and hotel ratings.
 
-Dashboard Preview
+## Dashboard Preview
 
-Excel Dashboard
+### Excel Dashboard
 
-Power BI Dashboard
+![Excel Dashboard](Images/excel_dashboard.png)
 
-Additional Power BI Views
+### Power BI Dashboard
 
-SQL Analysis
+![Power BI Dashboard](Images/powerbi_dashboard.png)
+
+### SQL Analysis
+
+![SQL Queries](Images/sql_queries.png)
 
 KPIs
 
