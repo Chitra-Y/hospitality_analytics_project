@@ -1,49 +1,44 @@
-# Hospitality Analytics Project
+Hospitality Analytics Project
 
-## Project Overview
+Project Overview
 
-This project analyzes hotel booking and revenue data using SQL, Excel, and Power BI. The objective is to identify key business insights related to revenue generation, occupancy performance, customer behavior, booking channels, and hotel ratings.
+This project analyzes hotel booking and revenue data using SQL, Excel, and Power BI. The objective is to identify business insights related to revenue generation, occupancy performance, customer behavior, booking channels, room preferences, and hotel ratings.
 
-The project includes data cleaning, SQL-based analysis, Excel dashboard development, and Power BI visualizations to support data-driven decision-making in the hospitality industry.
+Dashboard Preview
 
-## Dashboard Preview
+Excel Dashboard
 
-### Excel Dashboard
+Power BI Dashboard
 
-![Excel Dashboard](Images/hospitality_excel_dashboard.png)
+Additional Power BI Views
 
-### Power BI Dashboard
+SQL Analysis
 
-![Power BI Dashboard](Images/hospitality_powerbi_dashboard.png)
+KPIs
 
-### SQL Analysis
+* Total Revenue
+* Total Bookings
+* Occupancy Rate
+* Cancellation Rate
+* Average Rating
 
-![SQL Queries](Images/sql_queries.png)
+Dashboard Features
+
+* Revenue by City
+* Revenue by Hotel
+* Revenue by Room Type
+* Monthly Revenue Trend
+* Booking Channel Analysis
+* Customer Distribution
+* Rating Analysis
+
+Tools Used
+
+* SQL
+* Microsoft Excel
+* Power BI
 
 
-## KPIs
-
-- Total Revenue
-- Total Bookings
-- Occupancy Rate
-- Cancellation Rate
-- Average Rating
-
-## Dashboard Features
-
-- Revenue by City
-- Revenue by Hotel
-- Revenue by Room Type
-- Customer Distribution
-- Booking Channel Analysis
-- Rating Analysis
-- Monthly Revenue Trend
-
-## Tools Used
-
-- SQL
-- Microsoft Excel
-- Power BI
 
 ## Key Insights
 
