@@ -1,8 +1,6 @@
 
 # Hospitality Analytics Project
 
-# Hospitality Analytics Project
-
 ## Dashboard Preview
 
 ### Excel Dashboard
